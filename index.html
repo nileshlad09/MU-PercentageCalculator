@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEM-1(MU)</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="heading">Percentage Calculator</li>
+        </ul>
+        <ul>
+            <li><a href="index.html">SEM-1</a></li>
+            <li><a href="sem2.html">SEM-2</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <div class="main">
+            <div class="container">
+                <h1>SEM-I</h1>
+                <div class="Total">
+                    <div class="container1">
+                        <div class="mark">
+                            <li>EM-1(58651):-</li>
+                            <input type="text" class="subject" name="" id="EM1">
+                            <p>/100</p>
+                        </div>
+                        <div class="mark">
+                            <li>EM-1(58651 TW):-</li>
+                            <input type="text" class="subject" name="" id="EM1T">
+                            <p>/25</p>
+                        </div>
+                        <div class="mark">
+                            <li>EP-1(58652):-</li>
+                            <input type="text" class="subject" name="" id="EP1">
+                            <p>/75</p>
+                        </div>
+                        <div class="mark">
+                            <li>EP-1(FEL101):-</li>
+                            <input type="text" class="subject" name="" id="EP1T">
+                            <p>/25</p>
+                        </div>
+                        <div class="mark">
+                            <li>EC-1(58655):-</li>
+                            <input type="text" class="subject" name="" id="EC1">
+                            <p>/75</p>
+                        </div>
+                    </div>
+                    <div class="container1">
+                        <div class="mark">
+                            <li>EC-1(FEL102):-</li>
+                            <input type="text" class="subject" name="" id="EC1T">
+                            <p>/25</p>
+                        </div>
+                        <div class="mark">
+                            <li>EM(58653):-</li>
+                            <input type="text" class="subject" name="" id="EM">
+                            <p>/100</p>
+                        </div>
+                        <div class="mark">
+                            <li>EM(FEL103):-</li>
+                            <input type="text" class="subject" name="" id="EMT">
+                            <p>/50</p>
+                        </div>
+                        <div class="mark">
+                            <li>BEE(58654):-</li>
+                            <input type="text" class="subject" name="" id="BEE">
+                            <p>/100</p>
+                        </div>
+                        <div class="mark">
+                            <li>BEE(FEL104):-</li>
+                            <input type="text" class="subject" name="" id="BEET">
+                            <p>/50</p>
+                        </div>
+                        <div class="mark">
+                            <li>WORKSHOP-I(FEL105):-</li>
+                            <input type="text" class="subject" name="" id="WS">
+                            <p>/50</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="percentage">
+                    <h6 onclick="calcy()">SHOWPERCENTAGE</h6>
+                </div>
+                <div id="message">
+
+                </div>
+            </div>
+            <div class="average">
+                <h1>average percentage</h1>
+                <input type="text" name="" id="sem1" placeholder="Enter Sem1 Total Mark">
+                <input type="text" name="" id="sem2" placeholder="Enter Sem2 Total Mark">
+                <button onclick="Totalp()">average</button>
+                <div id="message2">
+                    <p>Your percentage of 1st year :-</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+    <script src="Total.js"></script>
+</body>
+
+</html>

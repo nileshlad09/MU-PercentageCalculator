@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEM-2(MU)</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="heading">Percentage Calculator</li>
+        </ul>
+        <ul>
+            <li><a href="index.html">SEM-1</a></li>
+            <li><a href="sem2.html">SEM-2</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="main">
+            <div class="container">
+                <h1>SEM-2</h1>
+                <div class="Total">
+                    <div class="container1">
+                        <div class="mark">
+                            <li>EM-2(FEC201):-</li>
+                            <input type="text" class="subject" name="" id="mark1">
+                            <p>/100</p>
+                        </div>
+                        <div class="mark">
+                            <li>EM-2(FEC201 TW):-</li>
+                            <input type="text" class="subject" name="" id="mark2">
+                            <p>/25</p>
+                        </div>
+                        <div class="mark">
+                            <li>EP-2(FEC202):-</li>
+                            <input type="text" class="subject" name="" id="mark3">
+                            <p>/75</p>
+                        </div>
+                        <div class="mark">
+                            <li>EP-2(FEL201 TW):-</li>
+                            <input type="text" class="subject" name="" id="mark4">
+                            <p>/25</p>
+                        </div>
+                        <div class="mark">
+                            <li>EC-2(FEC203):-</li>
+                            <input type="text" class="subject" name="" id="mark5">
+                            <p>/75</p>
+                        </div>
+                        <div class="mark">
+                            <li>EC-2(FEL202):-</li>
+                            <input type="text" class="subject" name="" id="mark6">
+                            <p>/25</p>
+                        </div>
+
+                    </div>
+                    <div class="container1">
+                        <div class="mark">
+                            <li>EG(FEC204):-</li>
+                            <input type="text" class="subject" name="" id="mark7">
+                            <p>/75</p>
+                        </div>
+                        <div class="mark">
+                            <li>EG(FEL203):-</li>
+                            <input type="text" class="subject" name="" id="mark8">
+                            <p>/75</p>
+                        </div>
+                        <div class="mark">
+                            <li>CP(FEC205):-</li>
+                            <input type="text" class="subject" name="" id="mark9">
+                            <p>/75</p>
+                        </div>
+                        <div class="mark">
+                            <li>CP(FEL204):-</li>
+                            <input type="text" class="subject" name="" id="mark10">
+                            <p>/50</p>
+                        </div>
+                        <div class="mark">
+                            <li>PCE(FEC206):-</li>
+                            <input type="text" class="subject" name="" id="mark11">
+                            <p>/50</p>
+                        </div>
+                        <div class="mark">
+                            <li>PCE(FEL205):-</li>
+                            <input type="text" class="subject" name="" id="mark12">
+                            <p>/25</p>
+                        </div>
+                        <div class="mark">
+                            <li>WORKSHOP-2(FEL206):-</li>
+                            <input type="text" class="subject" name="" id="mark13">
+                            <p>/50</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="percentage">
+                    <h6 onclick="calcy()">SHOWPERCENTAGE</h6>
+                </div>
+                <div id="message">
+
+                </div>
+            </div>
+            <div class="average">
+                <h1>average percentage</h1>
+                <input type="text" name="" id="sem1" placeholder="Enter Sem1 Total Mark">
+                <input type="text" name="" id="sem2" placeholder="Enter Sem2 Total Mark">
+                <button onclick="Totalp()">average</button>
+                <div id="message2">
+                    <p>Your percentage of 1st year :-</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </main>
+    <script src="sem2.js"></script>
+    <script src="Total.js"></script>
+</body>
+
+</html>
